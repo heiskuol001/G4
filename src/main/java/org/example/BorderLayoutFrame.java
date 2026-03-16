@@ -34,6 +34,8 @@ public class BorderLayoutFrame extends JFrame {
         add(scrollPane, BorderLayout.CENTER);
 
 
+        JButton submitButton = new JButton("Submit");
+        add(submitButton, BorderLayout.SOUTH);
 
     }
 }
