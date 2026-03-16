@@ -29,5 +29,11 @@ public class BorderLayoutFrame extends JFrame {
         add(westPanel, BorderLayout.WEST);
 
 
+        JTextArea textArea = new JTextArea();
+        JScrollPane scrollPane = new JScrollPane(textArea);
+        add(scrollPane, BorderLayout.CENTER);
+
+
+
     }
 }
