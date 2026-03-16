@@ -13,5 +13,10 @@ public class BorderLayoutFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
+
+        JLabel titleLabel = new JLabel("Application Title", JLabel.CENTER);
+        add(titleLabel, BorderLayout.NORTH);
+
+
     }
 }
