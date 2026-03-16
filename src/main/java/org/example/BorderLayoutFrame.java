@@ -18,5 +18,16 @@ public class BorderLayoutFrame extends JFrame {
         add(titleLabel, BorderLayout.NORTH);
 
 
+        JPanel westPanel = new JPanel();
+        westPanel.setLayout(new GridLayout(3, 1, 5, 5));
+        JButton btn1 = new JButton("Option 1");
+        JButton btn2 = new JButton("Option 2");
+        JButton btn3 = new JButton("Option 3");
+        westPanel.add(btn1);
+        westPanel.add(btn2);
+        westPanel.add(btn3);
+        add(westPanel, BorderLayout.WEST);
+
+
     }
 }
